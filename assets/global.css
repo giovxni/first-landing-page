@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;900&display=swap');
+
+* { 
+    font-family: Raleway, sans-serif;
+    text-shadow: 4px 4px 9px rgba(0, 0, 0, 0.021);
+}
+
+body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    margin: auto;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    background-color: #1d1d1d;
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #33a8db;
+}

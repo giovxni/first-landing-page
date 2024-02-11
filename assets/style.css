@@ -1,0 +1,189 @@
+@import url(global.css);
+ 
+/* Parte 1 da landing-page */
+
+.banner {
+    /* Header element */
+    background-image: radial-gradient(#000000c9, #10aaec25), url(images/banner.png);
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid #33A8DB;
+    border-left: none;
+    border-right: none;
+}
+
+.banner-content {
+    text-align: center;
+    margin: auto;
+}
+
+
+.logo {
+    display: block;
+    margin: auto;
+    padding: 40px 0 20px 0;
+}
+
+.header-title {
+    text-align: center;
+    background-image: linear-gradient(90deg, #33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    padding: 20px 0px 10px 0;
+}
+
+button {
+    width: 300px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 90px;
+    padding: 20px;
+    border: solid 2px #3BA1CD;
+    color: #3BA1CD;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 16px;
+    box-shadow: 1px 9px 16px -1px rgba(0, 0, 0, 0.57);
+    -webkit-box-shadow: 1px 9px 16px -1px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 1px 9px 16px -1px rgba(0, 0, 0, 0.57);
+}
+
+button:hover {
+    background-color: #1473b715;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Parte 2 da landing-page */
+
+#course-content {
+    border: 1px solid #33A8DB;
+}
+
+h2 {
+    background-image: linear-gradient(90deg, #33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    padding: 60px 0 20px 0;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+.modules-list {
+    padding: 20px 0 50px 0;
+}
+
+.module {
+    width: 30%;
+    border: solid 1px #1472B7;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    background-color: #252525;
+    box-shadow: 1px 9px 16px -1px rgba(0, 0, 0, 0.57);
+    -webkit-box-shadow: 1px 9px 16px -1px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 1px 9px 16px -1px rgba(0, 0, 0, 0.57);
+    font-weight: 400;
+}
+
+span {
+    color: #33A8DB;
+}
+
+.module:hover {
+    background-color: #1a1d0d15;
+    color: white;
+    cursor: context-menu;
+    transition: 0.2s;
+}
+
+/* Parte 3 da landing-page */
+
+#transform-world {
+    width: 100%;
+    height: 500px;
+    border: solid 1px #1472B7;
+    border-left: none;
+    border-right: none;
+    background-image: url(images/woman-code.png);
+    background-size: cover;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+#transform-world p {
+    width: 300px;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 15%;
+    font-weight: 900;
+    text-transform: lowercase;
+    font-size: 3em;
+    text-shadow: 0px 3px 2px #33a8db;
+}
+
+/* Parte 4 da landing-page */
+
+#professional-challenges {
+    border: solid 1px #1472B7;
+}
+
+#professional-challenges h2 {
+    text-align: center;
+    padding: 80px 0 30px 0;
+}
+
+#professional-challenges img {
+    width: 40%;
+    text-align: center;
+    object-fit: cover;
+    display: block;
+}
+
+#professional-challenges img {
+    width: 40%;
+    text-align: center;
+    object-fit: cover;
+    display: block;
+}
+
+#professional-challenges p {
+    margin: auto;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    width: 40%;
+    padding: 60px 60px;
+}
+
+/* Parte 5 da landing-page */
+
+footer {
+    background-image: radial-gradient(#000000c9, #10aaec25);
+    padding: 60px;
+    border-top: 1px solid #1b0569;
+}
+
+footer img {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
